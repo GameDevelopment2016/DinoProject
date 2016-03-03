@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c933095d70a794646ab9af611d8f1587
-timeCreated: 1457014303
+timeCreated: 1457017379
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,10 @@ TextureImporter:
     21300002: Idle-Running-Dead-100x100_1
     21300004: Idle-Running-Dead-100x100_2
     21300006: Idle-Running-Dead-100x100_3
+    21300008: Dino-Idle-Running-Dead-100x100_0
+    21300010: Dino-Idle-Running-Dead-100x100_1
+    21300012: Dino-Idle-Running-Dead-100x100_2
+    21300014: Dino-Idle-Running-Dead-100x100_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,7 +58,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Idle-Running-Dead-100x100_0
+    - name: Dino-Idle-Running-Dead-100x100_0
       rect:
         serializedVersion: 2
         x: 5
@@ -72,7 +76,7 @@ TextureImporter:
         - {x: 44, y: 47}
         - {x: -40, y: 47}
         - {x: -44, y: 46}
-    - name: Idle-Running-Dead-100x100_1
+    - name: Dino-Idle-Running-Dead-100x100_1
       rect:
         serializedVersion: 2
         x: 105
@@ -89,7 +93,7 @@ TextureImporter:
         - {x: 33, y: -47}
         - {x: 44, y: 11}
         - {x: 44, y: 47}
-    - name: Idle-Running-Dead-100x100_2
+    - name: Dino-Idle-Running-Dead-100x100_2
       rect:
         serializedVersion: 2
         x: 205
@@ -109,7 +113,7 @@ TextureImporter:
         - {x: 39, y: -40}
         - {x: 44, y: -13}
         - {x: 44, y: 47}
-    - name: Idle-Running-Dead-100x100_3
+    - name: Dino-Idle-Running-Dead-100x100_3
       rect:
         serializedVersion: 2
         x: 305
