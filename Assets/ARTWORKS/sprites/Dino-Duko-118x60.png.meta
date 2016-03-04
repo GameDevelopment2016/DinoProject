@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: 519e06090d51c514cafea040e46b46e0
-timeCreated: 1457017317
+guid: c0f31ed91188b47cd83e68cb3274453d
+timeCreated: 1457106249
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Birds-Flying-100x100_0
-    21300002: Birds-Flying-100x100_1
-    21300004: Pterodactyl-Flying-100x100_0
-    21300006: Pterodactyl-Flying-100x100_1
+    21300000: Dino-Duko-118x60_0
+    21300002: Dino-Duko-118x60_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,7 +25,7 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
+  cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
@@ -54,23 +52,23 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Pterodactyl-Flying-100x100_0
+    - name: Dino-Duko-118x60_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 118
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Pterodactyl-Flying-100x100_1
+    - name: Dino-Duko-118x60_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 118
         y: 0
-        width: 100
-        height: 100
+        width: 118
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
