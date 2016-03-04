@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PterodactylController : MonoBehaviour {
-	
+public class DataCoinCollectible : MonoBehaviour {
+
 	void Start () {
 	
 	}
