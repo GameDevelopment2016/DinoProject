@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: 505520878a0874edcbbc9c579ebb0126
-timeCreated: 1457106195
+guid: b0a359356ee6e50478346e06b9bc8ea1
+timeCreated: 1457234077
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Dino-88x164_0
-    21300002: Dino-88x164_1
-    21300004: Dino-88x164_2
-    21300006: Dino-88x164_3
-    21300008: Dino-88x164_4
+    21300000: Dino-Duko-360x183_0
+    21300002: Dino-Duko-360x183_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,13 +19,13 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
+  cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
@@ -47,7 +44,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -55,56 +52,53 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Dino-88x164_0
+    - name: Dino-Duko-360x183_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 144
-        height: 156
+        y: 0
+        width: 360
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Dino-88x164_1
+      outline:
+      - - {x: -171, y: 82.5}
+        - {x: -171, y: 36.5}
+        - {x: -104, y: -60.5}
+        - {x: -70, y: -57.5}
+        - {x: -71, y: -40.5}
+        - {x: -67, y: -80.5}
+        - {x: -65, y: -82.5}
+        - {x: -28, y: -82.5}
+        - {x: 171, y: -37.5}
+        - {x: 171, y: 82.5}
+    - name: Dino-Duko-360x183_1
       rect:
         serializedVersion: 2
-        x: 144
-        y: 4
-        width: 144
-        height: 156
+        x: 360
+        y: 0
+        width: 360
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Dino-88x164_2
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 4
-        width: 144
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Dino-88x164_3
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 4
-        width: 144
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Dino-88x164_4
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 4
-        width: 144
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 171, y: 76.5}
+        - {x: 133, y: 82.5}
+        - {x: -59, y: 82.5}
+        - {x: -90, y: 78.5}
+        - {x: -116, y: 82.5}
+        - {x: -171, y: 82.5}
+        - {x: -171, y: 41.5}
+        - {x: -166, y: 23.5}
+        - {x: -124, y: -82.5}
+        - {x: -69, y: -82.5}
+        - {x: -46, y: -72.5}
+        - {x: 8, y: -73.5}
+        - {x: 64, y: -33.5}
+        - {x: 171, y: -34.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
