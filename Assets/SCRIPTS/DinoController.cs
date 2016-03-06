@@ -8,6 +8,7 @@ public class DinoController : MonoBehaviour {
 	public bool standing;
 	public float jetSpeed = 15f;
 	public float airSpeedMultiplier = .3f;
+	public float jumpHeight = 15f;
 
 	public Vector2 moving = new Vector2();
 
@@ -41,7 +42,7 @@ public class DinoController : MonoBehaviour {
 		if(Input.GetKey("up")) {
 			moving.y = 1;
 		} else if(Input.GetKey("down")) {
-			moving.x = -1;
+			moving.y = -1;
 		}
 
 		if (moving.x != 0) {
