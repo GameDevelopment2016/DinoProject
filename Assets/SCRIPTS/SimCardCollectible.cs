@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DataCoinCollectible : MonoBehaviour {
+public class SimCardCollectible : MonoBehaviour {
 
 	public AudioClip pickUpSound;
 

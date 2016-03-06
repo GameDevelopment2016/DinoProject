@@ -3,11 +3,11 @@ using System.Collections;
 
 public class PterodactylController : MonoBehaviour {
 	
-	void Start () {
+	void Start() {
 	
 	}
 
-	void Update () {
+	void Update() {
 	
 	}
 }

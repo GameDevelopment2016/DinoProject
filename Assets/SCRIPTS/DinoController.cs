@@ -24,7 +24,7 @@ public class DinoController : MonoBehaviour {
 		var forceY = 0f;
 
 		var absValX = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x);
-		var absValY = Mathf.Abs (GetComponent<Rigidbody2D>().velocity.y);
+		var absValY = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y);
 
 		if(absValY <.2f) {
 			standing = true;
@@ -47,11 +47,11 @@ public class DinoController : MonoBehaviour {
 		if (moving.x != 0) {
 			if (absValX < maxVelocity.x) {
 				forceX = standing ? speed * moving.x : (speed * moving.x * airSpeedMultiplier);
-				transform.localScale = new Vector3 (forceX > 0 ? 1 : -1, 1, 1);
+				transform.localScale = new Vector3(forceX > 0 ? 1 : -1, 1, 1);
 			}
-			animator.SetInteger ("AnimState", 1);
+			animator.SetInteger("AnimState", 1);
 		} else {
-			animator.SetInteger ("AnimState", 0);
+			animator.SetInteger("AnimState", 0);
 		}
 
 		if (moving.y > 0) {
@@ -60,6 +60,6 @@ public class DinoController : MonoBehaviour {
 			}
 		}
 
-		GetComponent<Rigidbody2D>().AddForce(new Vector2 (forceX, forceY));
+		GetComponent<Rigidbody2D>().AddForce(new Vector2(forceX, forceY));
 	}
 }

@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 826c6f91d8e966b4582a9606cf741abc
+timeCreated: 1457235473
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Advertisement-Banner500x200_0
+    21300002: Advertisement-Banner500x200_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Advertisement-Banner500x200_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 193, y: 69}
+        - {x: -80, y: 91}
+        - {x: -223, y: 91}
+        - {x: -246, y: 73}
+        - {x: -246, y: 53}
+        - {x: -245, y: 53}
+        - {x: -187, y: -61}
+        - {x: 177, y: -61}
+        - {x: 249, y: 2}
+        - {x: 249, y: 38}
+        - {x: 229, y: 45}
+      - - {x: -125, y: -22}
+        - {x: -125, y: -39}
+        - {x: -17, y: -39}
+        - {x: -12, y: -35}
+        - {x: -12, y: -22}
+      - - {x: -3, y: -22}
+        - {x: -3, y: -39}
+        - {x: 28, y: -39}
+        - {x: 30, y: -36}
+        - {x: 30, y: -22}
+      - - {x: 39, y: -22}
+        - {x: 39, y: -38}
+        - {x: 40, y: -39}
+        - {x: 120, y: -39}
+        - {x: 120, y: -22}
+      - - {x: -147, y: 2}
+        - {x: -147, y: -15}
+        - {x: -2, y: -15}
+        - {x: -2, y: 2}
+      - - {x: 7, y: 2}
+        - {x: 7, y: -13}
+        - {x: 9, y: -15}
+        - {x: 39, y: -15}
+        - {x: 40, y: -14}
+        - {x: 40, y: 0}
+        - {x: 39, y: 2}
+      - - {x: 51, y: 2}
+        - {x: 49, y: 1}
+        - {x: 49, y: -14}
+        - {x: 50, y: -15}
+        - {x: 66, y: -15}
+        - {x: 68, y: -14}
+        - {x: 68, y: -3}
+        - {x: 59, y: 2}
+      - - {x: 141, y: 2}
+        - {x: 79, y: 2}
+        - {x: 77, y: -1}
+        - {x: 77, y: -14}
+        - {x: 80, y: -15}
+        - {x: 137, y: -15}
+        - {x: 142, y: -14}
+        - {x: 142, y: 0}
+      - - {x: -101, y: 27}
+        - {x: -103, y: 25}
+        - {x: -103, y: 10}
+        - {x: -38, y: 10}
+        - {x: -38, y: 27}
+      - - {x: 6, y: 10}
+        - {x: 15, y: 10}
+        - {x: 19, y: 11}
+        - {x: 20, y: 19}
+        - {x: 20, y: 27}
+        - {x: -29, y: 27}
+        - {x: -29, y: 10}
+        - {x: 3, y: 10}
+        - {x: 4, y: 12}
+        - {x: 4, y: 16}
+        - {x: 5, y: 12}
+      - - {x: 29, y: 27}
+        - {x: 29, y: 10}
+        - {x: 41, y: 10}
+        - {x: 41, y: 25}
+        - {x: 39, y: 27}
+      - - {x: 49, y: 27}
+        - {x: 49, y: 10}
+        - {x: 95, y: 10}
+        - {x: 98, y: 14}
+        - {x: 98, y: 27}
+    - name: Advertisement-Banner500x200_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 164, y: 79}
+        - {x: -150, y: 53}
+        - {x: -152, y: 51}
+        - {x: -152, y: 47}
+        - {x: -157, y: 47}
+        - {x: -155, y: 49}
+        - {x: -148, y: 58}
+        - {x: -197, y: 79}
+        - {x: -228, y: 79}
+        - {x: -241, y: 74}
+        - {x: -241, y: 46}
+        - {x: -211, y: 17}
+        - {x: -202, y: 14}
+        - {x: -171, y: -59}
+        - {x: 237, y: -59}
+        - {x: 250, y: -52}
+        - {x: 250, y: 53}
+        - {x: 209, y: 79}
+      - - {x: -113, y: -18}
+        - {x: -113, y: -35}
+        - {x: -1, y: -35}
+        - {x: 0, y: -31}
+        - {x: 0, y: -20}
+        - {x: -4, y: -18}
+      - - {x: 11, y: -18}
+        - {x: 9, y: -20}
+        - {x: 9, y: -35}
+        - {x: 42, y: -35}
+        - {x: 42, y: -18}
+      - - {x: 51, y: -18}
+        - {x: 51, y: -35}
+        - {x: 132, y: -35}
+        - {x: 132, y: -18}
+      - - {x: -135, y: 6}
+        - {x: -135, y: -11}
+        - {x: 3, y: -11}
+        - {x: 10, y: -2}
+        - {x: 10, y: 6}
+      - - {x: 19, y: 6}
+        - {x: 19, y: -9}
+        - {x: 21, y: -11}
+        - {x: 51, y: -11}
+        - {x: 52, y: -10}
+        - {x: 52, y: 4}
+        - {x: 51, y: 6}
+      - - {x: 63, y: 6}
+        - {x: 61, y: 5}
+        - {x: 61, y: -10}
+        - {x: 62, y: -11}
+        - {x: 78, y: -11}
+        - {x: 80, y: -10}
+        - {x: 80, y: 1}
+        - {x: 71, y: 6}
+      - - {x: 153, y: 6}
+        - {x: 91, y: 6}
+        - {x: 89, y: 3}
+        - {x: 89, y: -10}
+        - {x: 92, y: -11}
+        - {x: 149, y: -11}
+        - {x: 154, y: -10}
+        - {x: 154, y: 4}
+      - - {x: -91, y: 31}
+        - {x: -91, y: 14}
+        - {x: -26, y: 14}
+        - {x: -26, y: 31}
+      - - {x: 18, y: 14}
+        - {x: 27, y: 14}
+        - {x: 31, y: 15}
+        - {x: 32, y: 23}
+        - {x: 32, y: 31}
+        - {x: -17, y: 31}
+        - {x: -17, y: 14}
+        - {x: 15, y: 14}
+        - {x: 16, y: 16}
+        - {x: 16, y: 20}
+        - {x: 17, y: 16}
+      - - {x: 41, y: 31}
+        - {x: 41, y: 14}
+        - {x: 53, y: 14}
+        - {x: 53, y: 29}
+        - {x: 51, y: 31}
+      - - {x: 61, y: 31}
+        - {x: 61, y: 14}
+        - {x: 107, y: 14}
+        - {x: 110, y: 18}
+        - {x: 110, y: 31}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
