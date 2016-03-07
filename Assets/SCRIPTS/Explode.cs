@@ -25,5 +25,10 @@ public class Explode : MonoBehaviour {
 
 	public void OnExplode(){
 		Destroy(gameObject);
+
+		GameObject message_object = new GameObject("AfterDieMessage");
+		ClickToContinue script = message_object.AddComponent<ClickToContinue>();
+		script.scene = Application.loadedLevelName;
+		message_object.AddComponent<DisplayRestartText>();
 	}
 }

@@ -30,7 +30,7 @@ public class BigCactusController : MonoBehaviour {
 		transform.position = new Vector2(transform.position.x - bigCactusMoveRate, transform.position.y);
 
 		if (transform.position.x <= -31f) {
-			transform.position = new Vector2(31f, transform.position.y);
+			transform.position = new Vector2(Random.Range(30, 35), transform.position.y);
 		}
 	}
 }

@@ -16,8 +16,8 @@ public class CloudController : MonoBehaviour {
 	void FixedUpdate() {
 		transform.position = new Vector2(transform.position.x - cloudMoveRate, transform.position.y);
 
-		if (transform.position.x <= -31f) {
-			transform.position = new Vector2(31f, transform.position.y);
+		if (transform.position.x <= -15f) {
+			transform.position = new Vector2(Random.Range(20, 30), transform.position.y);
 		}
 	}
 }
