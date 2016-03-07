@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PterodactylController : MonoBehaviour {
+public class PlatformController : MonoBehaviour {
 
-	public float pterodactylMoveRate = 1;
+	public float backGroundMoveRate = .07f;
 
 	void Start() {
 	
@@ -14,7 +14,7 @@ public class PterodactylController : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		transform.position = new Vector2(transform.position.x - pterodactylMoveRate, transform.position.y);
+		transform.position = new Vector2(transform.position.x - backGroundMoveRate, transform.position.y);
 
 		if (transform.position.x <= -31f) {
 			transform.position = new Vector2(31f, transform.position.y);

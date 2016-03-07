@@ -3,6 +3,7 @@ using System.Collections;
 
 public class SimCardCollectible : MonoBehaviour {
 
+	public float simCardMoveRate = 1f;
 	public AudioClip pickUpSound;
 
 	void Start() {
@@ -16,13 +17,14 @@ public class SimCardCollectible : MonoBehaviour {
 	}
 
 	void Update() {
-
+		transform.position = new Vector2(transform.position.x - simCardMoveRate, transform.position.y);
 	}
 
 	void OnTriggerEnter2D(Collider2D target) {
 		if(target.gameObject.tag == "Dino") {
 			PlayPickUpSound();
-			Destroy(gameObject);
+			Destroy(target.gameObject);
+			Application.LoadLevel("Level2");
 		}
 
 	}
