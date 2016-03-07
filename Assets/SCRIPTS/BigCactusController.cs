@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RandomCactusSprite : MonoBehaviour {
+public class BigCactusController : MonoBehaviour {
 
 	public Sprite[] sprites;
 	public string resourceName;
 	public int currentSprite = -1;
+
+	public float bigCactusMoveRate;
 
 	void Start() {
 		if(resourceName != "") {
@@ -22,5 +24,13 @@ public class RandomCactusSprite : MonoBehaviour {
 
 	void Update() {
 	
+	}
+
+	void FixedUpdate() {
+		transform.position = new Vector2(transform.position.x - bigCactusMoveRate, transform.position.y);
+
+		if (transform.position.x <= -31f) {
+			transform.position = new Vector2(31f, transform.position.y);
+		}
 	}
 }
